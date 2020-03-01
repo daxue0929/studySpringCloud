@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client-a" />
+        <module name="eureka-customer-a" />
+        <module name="eureka-provide-a" />
+        <module name="eureka-server" />
+        <module name="microservices-discovery-eureka" />
+        <module name="studySpringCloud" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client-a" options="" />
+      <module name="eureka-customer-a" options="-parameters" />
+      <module name="eureka-demo" options="-parameters" />
+      <module name="eureka-provide-a" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="microservices-discovery-eureka" options="" />
+    </option>
+  </component>
+</project>

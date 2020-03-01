@@ -1,0 +1,12 @@
+server:
+    port: 8761 #更改端口为8761
+eureka:
+    client:
+        register-with-eureka: false #服务器不用注册到其他服务器
+        fetch-registry: false #服务器不用去服务器抓取注册信息
+    service-url:
+        defaultZone: http://39.107.127.218:8761/eureka/
+spring:
+    cloud:
+        config:
+            enabled: false
